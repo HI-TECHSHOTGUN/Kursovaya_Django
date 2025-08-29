@@ -1,4 +1,4 @@
-{% extends 'mailing_service/base.html' %}
+{% extends 'sender/base.html' %}
 
 {% block title %}Подтверждение завершения рассылки{% endblock %}
 
@@ -14,7 +14,7 @@
                         {{form.as_p}}
                         <div>
                             <button type="submit" class="btn btn-danger">Завершить</button>
-                            <a class="btn btn-outline-secondary" href="{% url 'mailing_service:mailings_list' %}"
+                            <a class="btn btn-outline-secondary" href="{% url 'sender:mailings_list' %}"
                                role="button"> Назад </a>
                         </div>
                     </div>

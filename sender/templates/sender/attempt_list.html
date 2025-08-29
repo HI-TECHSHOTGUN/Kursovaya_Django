@@ -1,4 +1,4 @@
-{% extends 'mailing_service/base.html' %}
+{% extends 'sender/base.html' %}
 
 {% block title %}Список сообщений{% endblock %}
 
@@ -30,7 +30,7 @@
                         <p class="card-text">Статус попытки рассылки: {{attempt.get_status_display}}</p>
                         <div class="d-flex justify-content-between align-items-center">
                                 <a class="btn btn-outline-primary btn-sm"
-                                   href="{% url 'mailing_service:attempt_detail' attempt.pk %}"
+                                   href="{% url 'sender:attempt_detail' attempt.pk %}"
                                    role="button"> Подробнее </a>
                         </div>
                     </div>

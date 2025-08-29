@@ -1,4 +1,4 @@
-{% extends 'mailing_service/base.html' %}
+{% extends 'sender/base.html' %}
 
 {% block title %}Список сообщений{% endblock %}
 
@@ -7,7 +7,7 @@
         <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <a class="btn btn-outline-primary btn-sm"
-                                   href="{% url 'mailing_service:message_create' %}"
+                                   href="{% url 'sender:message_create' %}"
                                    role="button">Добавить новое сообщение</a>
             </div>
         </div>
@@ -25,14 +25,14 @@
                             <div class="btn-group">
 
                                 <a class="btn btn-outline-primary btn-sm"
-                                   href="{% url 'mailing_service:message_detail' message.pk %}"
+                                   href="{% url 'sender:message_detail' message.pk %}"
                                    role="button"> Подробнее </a>
                                 {% if user == message.owner %}
                                 <a class="btn btn-outline-secondary btn-sm"
-                                   href="{% url 'mailing_service:message_edit' message.pk %}"
+                                   href="{% url 'sender:message_edit' message.pk %}"
                                    role="button"> Редактировать </a>
                                 <a class="btn btn-outline-danger btn-sm"
-                                   href="{% url 'mailing_service:message_delete' message.pk %}"
+                                   href="{% url 'sender:message_delete' message.pk %}"
                                    role="button"> Удалить </a>
                                 {% endif %}
 

@@ -1,8 +1,8 @@
 from django.urls import path
 from django.views.decorators.cache import cache_page
 
-from mailing_service.apps import MailingServiceConfig
-from mailing_service.views import (AttemptMailingDetailView,
+from sender.apps import SenderConfig
+from sender.views import (AttemptMailingDetailView,
                                    AttemptMailingListView, ClientCreateView,
                                    ClientDeleteView, ClientDetailView,
                                    ClientListView, ClientUpdateView, IndexView,
@@ -13,7 +13,7 @@ from mailing_service.views import (AttemptMailingDetailView,
                                    MessageDetailView, MessageListView,
                                    MessageUpdateView, SendMessageView)
 
-app_name = MailingServiceConfig.name
+app_name = SenderConfig.name
 
 urlpatterns = [
     path("", IndexView.as_view(), name="index"),

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% block title %}Мой сайт{% endblock %}</title>
+    <title>{% block title %}Dungeon Master{% endblock %}</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
     <script src="{% static 'js/color-modes.js' %}"></script>
     <link href="{% static '/css/bootstrap.min.css' %}" rel="stylesheet">
@@ -75,13 +75,13 @@
         </li>
     </ul>
 </div>
-{% include 'mailing_service/includes/inc_menu.html' %}
+{% include 'sender/includes/inc_menu.html' %}
 <main>
-    {% include 'mailing_service/includes/inc_title.html' %}
+    {% include 'sender/includes/inc_title.html' %}
     {% block content %}
     {% endblock %}
 </main>
-{% include 'mailing_service/includes/inc_footer.html' %}
+{% include 'sender/includes/inc_footer.html' %}
 <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
 </body>
 </html>

@@ -86,7 +86,7 @@ class UserUpdateView(LoginRequiredMixin, UpdateView):
 
 class UserBlockView(LoginRequiredMixin, DeleteView):
     model = User
-    success_url = reverse_lazy("mailing_service:mailings_list")
+    success_url = reverse_lazy("sender:mailings_list")
     template_name = "users/confirm_user_block.html"
 
     def post(self, request, pk):

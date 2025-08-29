@@ -1,6 +1,6 @@
-{% extends 'mailing_service/base.html' %}
+{% extends 'sender/base.html' %}
 
-{% block title %}Создание нового сообщения{% endblock %}
+{% block title %}Добавление нового клиента{% endblock %}
 
 {% block content %}
 <div class="container">
@@ -20,7 +20,7 @@
                                 Создать
                                 {% endif %}
                             </button>
-                            <a class="btn btn-outline-secondary" href="{% url 'mailing_service:messages_list' %}"
+                            <a class="btn btn-outline-secondary" href="{% url 'sender:clients_list' %}"
                                role="button"> Назад </a>
                         </div>
                     </div>

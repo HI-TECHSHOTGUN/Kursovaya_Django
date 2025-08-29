@@ -1,6 +1,6 @@
 [
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 8,
     "fields": {
         "created_at": "2025-06-14T20:08:51.899Z",
@@ -11,7 +11,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 9,
     "fields": {
         "created_at": "2025-06-14T20:08:51.899Z",
@@ -22,7 +22,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 10,
     "fields": {
         "created_at": "2025-06-14T20:08:51.899Z",
@@ -33,7 +33,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 11,
     "fields": {
         "created_at": "2025-06-14T20:08:51.909Z",
@@ -44,7 +44,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 12,
     "fields": {
         "created_at": "2025-06-14T20:09:03.298Z",
@@ -55,7 +55,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 13,
     "fields": {
         "created_at": "2025-06-14T20:09:03.298Z",
@@ -66,7 +66,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 14,
     "fields": {
         "created_at": "2025-06-14T20:21:12.955Z",
@@ -77,7 +77,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 15,
     "fields": {
         "created_at": "2025-06-14T20:21:12.965Z",
@@ -88,7 +88,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 16,
     "fields": {
         "created_at": "2025-06-14T20:21:28.322Z",
@@ -99,7 +99,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 17,
     "fields": {
         "created_at": "2025-06-14T20:21:28.322Z",
@@ -110,7 +110,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 18,
     "fields": {
         "created_at": "2025-06-14T20:21:48.931Z",
@@ -121,18 +121,18 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 19,
     "fields": {
         "created_at": "2025-06-14T20:22:46.435Z",
         "status": "unsuccessfully",
-        "server_response": "{'mikhail-gubin26@ramb': (501, b'5.1.3 Bad recipient address syntax 1749932567-lMQrZQ8LkOs0-84nBO2xm')}",
+        "server_response": "{'maksim31@ramb': (501, b'5.1.3 Bad recipient address syntax 1749932567-lMQrZQ8LkOs0-84nBO2xm')}",
         "mailing": 6,
         "owner": null
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 20,
     "fields": {
         "created_at": "2025-06-14T20:22:46.437Z",
@@ -143,18 +143,18 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 21,
     "fields": {
         "created_at": "2025-06-14T20:23:48.951Z",
         "status": "unsuccessfully",
-        "server_response": "{'mikhail-gubin26@ramb': (501, b'5.1.3 Bad recipient address syntax 1749932629-nNQ6hd9LeeA0-dF4MsZkw')}",
+        "server_response": "{'maksim31@ramb': (501, b'5.1.3 Bad recipient address syntax 1749932629-nNQ6hd9LeeA0-dF4MsZkw')}",
         "mailing": 6,
         "owner": null
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 22,
     "fields": {
         "created_at": "2025-06-14T20:23:48.952Z",
@@ -165,7 +165,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 23,
     "fields": {
         "created_at": "2025-06-14T20:24:11.574Z",
@@ -176,7 +176,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 24,
     "fields": {
         "created_at": "2025-06-14T20:29:39.877Z",
@@ -187,7 +187,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 25,
     "fields": {
         "created_at": "2025-06-14T20:31:30.864Z",
@@ -198,7 +198,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 26,
     "fields": {
         "created_at": "2025-06-14T20:32:16.050Z",
@@ -209,7 +209,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 27,
     "fields": {
         "created_at": "2025-06-14T20:32:39.372Z",
@@ -220,7 +220,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 28,
     "fields": {
         "created_at": "2025-06-14T20:32:40.046Z",
@@ -231,7 +231,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 29,
     "fields": {
         "created_at": "2025-06-14T20:32:56.147Z",
@@ -242,7 +242,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 30,
     "fields": {
         "created_at": "2025-06-14T20:32:56.147Z",
@@ -253,7 +253,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 31,
     "fields": {
         "created_at": "2025-06-14T20:35:29.913Z",
@@ -264,7 +264,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 32,
     "fields": {
         "created_at": "2025-06-14T20:35:29.913Z",
@@ -275,7 +275,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 33,
     "fields": {
         "created_at": "2025-06-14T20:35:39.145Z",
@@ -286,7 +286,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 34,
     "fields": {
         "created_at": "2025-06-14T20:35:39.145Z",
@@ -297,7 +297,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 35,
     "fields": {
         "created_at": "2025-06-14T20:35:39.155Z",
@@ -308,7 +308,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 36,
     "fields": {
         "created_at": "2025-06-14T20:35:39.155Z",
@@ -319,7 +319,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 37,
     "fields": {
         "created_at": "2025-06-14T20:37:19.802Z",
@@ -330,7 +330,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 38,
     "fields": {
         "created_at": "2025-06-14T20:37:19.806Z",
@@ -341,7 +341,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 39,
     "fields": {
         "created_at": "2025-06-14T20:38:17.094Z",
@@ -352,7 +352,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 40,
     "fields": {
         "created_at": "2025-06-14T20:38:17.104Z",
@@ -363,7 +363,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 41,
     "fields": {
         "created_at": "2025-06-14T20:39:40.260Z",
@@ -374,7 +374,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 42,
     "fields": {
         "created_at": "2025-06-14T20:39:40.270Z",
@@ -385,7 +385,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 43,
     "fields": {
         "created_at": "2025-06-14T21:35:06.552Z",
@@ -396,7 +396,7 @@
     }
 },
 {
-    "model": "mailing_service.attemptmailing",
+    "model": "sender.attemptmailing",
     "pk": 44,
     "fields": {
         "created_at": "2025-06-14T21:35:06.552Z",

@@ -1,6 +1,6 @@
 [
 {
-    "model": "mailing_service.client",
+    "model": "sender.client",
     "pk": 4,
     "fields": {
         "email": "ivanov@test.ru",
@@ -10,7 +10,7 @@
     }
 },
 {
-    "model": "mailing_service.client",
+    "model": "sender.client",
     "pk": 5,
     "fields": {
         "email": "petrov@test.ru",
@@ -20,22 +20,22 @@
     }
 },
 {
-    "model": "mailing_service.client",
+    "model": "sender.client",
     "pk": 7,
     "fields": {
-        "email": "mikhail-gubin26@ramb",
-        "full_name": "Губин Михаил",
-        "comment": "Инженер фирмы ООО \"Digital Master\"",
+        "email": "maksim31@ramb",
+        "full_name": "Максим Максимов",
+        "comment": "Инженер фирмы ООО \"Dungeon Master\"",
         "owner": 2
     }
 },
 {
-    "model": "mailing_service.client",
+    "model": "sender.client",
     "pk": 8,
     "fields": {
-        "email": "MVGubin1323@yandex.ru",
-        "full_name": "Губин Михаил Владимирович",
-        "comment": "Специалист фирмы ООО \"Digital Master\"",
+        "email": "maksu@mail.ru",
+        "full_name": "Алексей Петров",
+        "comment": "Специалист фирмы ООО \"Dungeon Master\"",
         "owner": 7
     }
 }

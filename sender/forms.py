@@ -1,6 +1,6 @@
 from django import forms
 
-from mailing_service.models import Client, Mailing, Message
+from sender.models import Client, Mailing, Message
 from mixin_form import StyleFormMixin
 
 

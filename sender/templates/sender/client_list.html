@@ -1,4 +1,4 @@
-{% extends 'mailing_service/base.html' %}
+{% extends 'sender/base.html' %}
 
 {% block title %}Список клиентов{% endblock %}
 
@@ -7,7 +7,7 @@
         <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <a class="btn btn-outline-primary btn-sm"
-                                   href="{% url 'mailing_service:client_create' %}"
+                                   href="{% url 'sender:client_create' %}"
                                    role="button">Добавить нового клиента</a>
             </div>
         </div>
@@ -26,14 +26,14 @@
                             <div class="btn-group">
 
                                 <a class="btn btn-outline-primary btn-sm"
-                                   href="{% url 'mailing_service:client_detail' client.pk %}"
+                                   href="{% url 'sender:client_detail' client.pk %}"
                                    role="button"> Подробнее </a>
                                 {% if user == client.owner %}
                                 <a class="btn btn-outline-secondary btn-sm"
-                                   href="{% url 'mailing_service:client_edit' client.pk %}"
+                                   href="{% url 'sender:client_edit' client.pk %}"
                                    role="button"> Редактировать </a>
                                 <a class="btn btn-outline-danger btn-sm"
-                                   href="{% url 'mailing_service:client_delete' client.pk %}"
+                                   href="{% url 'sender:client_delete' client.pk %}"
                                    role="button"> Удалить </a>
                                 {% endif %}
 

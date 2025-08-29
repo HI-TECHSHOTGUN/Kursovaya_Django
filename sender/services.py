@@ -7,7 +7,7 @@ from django.db import models
 from django.views.generic import CreateView, ListView
 
 from config.settings import CACHE_ENABLED, EMAIL_HOST_USER
-from mailing_service.models import AttemptMailing
+from sender.models import AttemptMailing
 
 
 class MailingService:
@@ -95,11 +95,11 @@ class CustomListView(ListView):
         user = self.request.user
         get_queryset = super().get_queryset()
         permissions = [
-            user.has_perm("mailing_service.can_view_client"),
-            user.has_perm("mailing_service.can_view_message"),
-            user.has_perm("mailing_service.can_view_mailing"),
-            user.has_perm("mailing_service.can_edit_status"),
-            user.has_perm("mailing_service.can_view_attempt_mailing"),
+            user.has_perm("sender.can_view_client"),
+            user.has_perm("sender.can_view_message"),
+            user.has_perm("sender.can_view_mailing"),
+            user.has_perm("sender.can_edit_status"),
+            user.has_perm("sender.can_view_attempt_mailing"),
         ]
 
         if all(permissions):
